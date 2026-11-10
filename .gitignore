@@ -1,0 +1,33 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+*.log
+
+# Spark / Java
+derby.log
+metastore_db/
+spark-warehouse/
+
+# Local databases
+*.sqlite3
+*.db
+renewable_local.db
+datasets/uploads/
+
+# Secrets
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
